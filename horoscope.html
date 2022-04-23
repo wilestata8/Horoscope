@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="horocss.css">
+
+		<title>Zodiac</title>
+  </head>
+ 
+
+  <div id = "content">
+    <h1> Look to the Sun and Find Your Zodiac Sign </h1>
+    </div>
+    <h2> Select Your Date Of Birth. </h2>
+    <p>Month:<input type="number" id="month" min="1" max="12" ></p>
+    <p> Day:<input type="number" id="day" min="1" max="31"></p>
+    <a id="signSymbol" onclick="zodiac()"  class="button">Find your zodiac sign </a>
+    <p id="photo"></p>
+    <p id= "space"><span id="output"></span> </p>
+    
+    <p id="characteristic"></p>
+ 
+    
+    <script type="text/javascript" src="horoscope.js"></script>
+	</body>
+</html>
